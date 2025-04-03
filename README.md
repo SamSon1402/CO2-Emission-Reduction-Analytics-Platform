@@ -2,6 +2,14 @@
 
 ## Business Value for SITA
 
+![Image](https://github.com/user-attachments/assets/1d108e8c-601d-44da-988c-8c58d12d92a2)
+
+![Image](https://github.com/user-attachments/assets/efec425c-7df7-4f86-a19d-077a66987e93)
+
+![Image](https://github.com/user-attachments/assets/d6c340ce-cd3c-4e3c-a28e-873f18106238)
+
+![Image](https://github.com/user-attachments/assets/8534e950-f914-4da6-8c28-e7413c5eb641)
+
 This platform directly supports SITA's mission to reduce aviation's carbon footprint through data intelligence. By visualizing and analyzing flight emissions data, airlines can:
 
 - **Reduce Fuel Costs**: Identify and implement optimizations that can save thousands of euros per flight
