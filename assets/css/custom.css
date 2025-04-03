@@ -1,0 +1,142 @@
+/* Main styles for CO2 Emission Reduction Analytics Platform */
+
+/* Headers */
+.main-header {
+    font-size: 2.5rem !important;
+    color: #1E3F66 !important;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.sub-header {
+    font-size: 1.5rem !important;
+    color: #2E5984 !important;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Cards */
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Metric cards */
+.metric-card {
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #e9ecef;
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.metric-card h3 {
+    font-size: 1rem;
+    color: #495057;
+    margin-bottom: 8px;
+}
+
+.metric-card h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Color indicators */
+.green-text {
+    color: #28a745 !important;
+}
+
+.red-text {
+    color: #dc3545 !important;
+}
+
+.yellow-text {
+    color: #ffc107 !important;
+}
+
+/* Custom Streamlit overwrites */
+.stPlotlyChart {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.stDataFrame {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Sidebar styling */
+.sidebar .sidebar-content {
+    background-color: #f8f9fa;
+}
+
+/* Button styling */
+.stButton>button {
+    border-radius: 20px;
+    font-weight: 600;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Selectbox styling */
+.stSelectbox {
+    border-radius: 10px;
+}
+
+/* Tabs styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: 4px 4px 0px 0px;
+    padding: 10px 20px;
+    background-color: #f1f3f5;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #1E3F66;
+    color: white;
+}
+
+/* Toggle switch */
+.stCheckbox label {
+    font-weight: 500;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    .main-header {
+        font-size: 2rem !important;
+    }
+    
+    .sub-header {
+        font-size: 1.3rem !important;
+    }
+    
+    .metric-card {
+        padding: 10px;
+    }
+    
+    .metric-card h2 {
+        font-size: 1.5rem;
+    }
+}
